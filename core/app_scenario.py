@@ -2869,7 +2869,7 @@ class Scenario(unittest.TestCase):
 
             elif action["type"] == "End Try":
                 last_try_result = None
-                
+                continue
 
             elif action["type"] == "If":
                 if self._evaluate_statement(action, component):

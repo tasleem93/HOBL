@@ -1,7 +1,7 @@
 [
     {
-        "author": "jewilder",
-        "capture_device": "Surface Laptop 7 15in,  light theme, 150% scaling",
+        "author": "Jeff Wilder",
+        "capture_device": "Surface Laptop 8 15in",
         "children": [],
         "create_date": "2025-02-14",
         "description": "Clear browser cache",
@@ -27,13 +27,13 @@
         "file_name": [
             "image_10RJ3AW.png"
         ],
-        "h": "0.145",
+        "h": "0.25",
         "id": "10RJ3AW",
         "recapture": false,
         "type": "Capture",
-        "w": "0.175",
-        "x": "0.504",
-        "y": "0.461"
+        "w": "0.35",
+        "x": "0.430",
+        "y": "0.400"
     },
     {
         "capture_id": "10RJ3AW",

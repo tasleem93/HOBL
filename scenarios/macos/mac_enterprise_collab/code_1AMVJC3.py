@@ -11,9 +11,7 @@ def run(scenario):
     # Define paths
     target_dir = scenario.dut_exec_path
     exec_name = "mac_timers"
-    # SimpleTimer interface: <timer_period_ms> <busy_period_ms> <total_duration_s>
-    # 8ms period, 3ms busy work, 2400s (40 min) runtime
-    args = ["8", "3", "2400"]
+    args = ["8", "3", "43200"]  # timer_period_ms=8, busy_period_ms=3, total_duration_s=43200 (12h)
     exec_path = f"{target_dir}/mac_timers"
     
     logging.info(f"Executable path: {exec_path}")

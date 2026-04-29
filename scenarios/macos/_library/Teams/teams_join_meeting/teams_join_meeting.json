@@ -158,6 +158,24 @@
     },
     {
         "children": [],
+        "delay": "2",
+        "description": "Maxmize Window",
+        "enabled": true,
+        "id": "163WT03",
+        "text": "\ue009\ue03ef",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "10",
+        "description": "",
+        "enabled": true,
+        "id": "15VUPLJ",
+        "type": "Delay"
+    },
+    {
+        "children": [],
         "delay": "0.5",
         "description": "for Microphone Access",
         "enabled": true,
@@ -257,24 +275,6 @@
         "type": "Click",
         "x": "0.724",
         "y": "0.904"
-    },
-    {
-        "children": [],
-        "delay": "2",
-        "description": "Maxmize Window",
-        "enabled": true,
-        "id": "163WT03",
-        "text": "\ue009\ue03ef",
-        "type": "Type",
-        "typing_delay": "[typing_delay]"
-    },
-    {
-        "children": [],
-        "delay": "2",
-        "description": "",
-        "enabled": true,
-        "id": "15VUPLJ",
-        "type": "Delay"
     },
     {
         "children": [],

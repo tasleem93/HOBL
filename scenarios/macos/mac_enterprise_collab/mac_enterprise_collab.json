@@ -93,6 +93,16 @@
                         "delay": "0.0",
                         "description": "",
                         "enabled": true,
+                        "id": "1AMAYPR",
+                        "name": "[teams:verify_bots]",
+                        "type": "Set",
+                        "value": "0"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0.0",
+                        "description": "",
+                        "enabled": true,
                         "id": "1ANKM6J",
                         "name": "[teams:collect_MSTeams_Logs]",
                         "type": "Set",
@@ -114,7 +124,7 @@
                         "description": "",
                         "enabled": true,
                         "id": "1AKUT8L",
-                        "include_path": "..\\_library\\Teams\\teams_setup",
+                        "include_path": "scenarios\\macos\\_library\\Teams\\teams_setup",
                         "type": "Include"
                     }
                 ],
@@ -141,7 +151,7 @@
                         "description": "Upload timers executable from Host to DUT",
                         "enabled": true,
                         "id": "MAC_TIMERS_INCLUDE",
-                        "include_path": "..\\_library\\enterprise_collab\\timers_setup",
+                        "include_path": "scenarios\\macos\\_library\\enterprise_collab\\timers_setup",
                         "type": "Include"
                     },
                     {
@@ -175,12 +185,14 @@
                 "children": [
                     {
                         "children": [],
-                        "delay": "0",
-                        "description": "Create large binaries and upload to DUT",
+                        "delay": "0.0",
+                        "description": "Create three large binaries",
                         "enabled": true,
+                        "file_name": [
+                            "code_1ANJY4X.py"
+                        ],
                         "id": "1ANJY4X",
-                        "include_path": "..\\_library\\enterprise_collab\\onedrive_upload_setup",
-                        "type": "Include"
+                        "type": "Code"
                     }
                 ],
                 "description": "",
@@ -204,7 +216,7 @@
                 "description": "",
                 "enabled": true,
                 "id": "1ARKHNH",
-                "include_path": "..\\_library\\web\\web_setup",
+                "include_path": "scenarios\\macos\\_library\\web\\web_setup",
                 "type": "Include"
             },
             {
@@ -215,7 +227,7 @@
                         "description": "",
                         "enabled": true,
                         "id": "1CFLW86",
-                        "include_path": "..\\_library\\productivity\\prod_setup",
+                        "include_path": "scenarios\\macos\\_library\\productivity\\prod_setup",
                         "type": "Include"
                     }
                 ],
@@ -251,54 +263,87 @@
     {
         "children": [
             {
+                "children": [],
+                "delay": "0.0",
+                "description": "",
+                "enabled": true,
+                "id": "1CNTR01",
+                "name": "[loop_count]",
+                "type": "Set",
+                "value": "0"
+            },
+            {
+                "children": [],
+                "delay": "0.0",
+                "description": "",
+                "enabled": true,
+                "id": "1CNTR02",
+                "name": "[fail_count]",
+                "type": "Set",
+                "value": "0"
+            },
+            {
                 "children": [
                     {
                         "children": [
                             {
                                 "children": [],
                                 "delay": "0.0",
-                                "description": "Download a large file from Internet",
+                                "description": "Log loop iteration start",
                                 "enabled": true,
                                 "file_name": [
-                                    "code_1ARK9VL.py"
+                                    "code_LOOPLOG.py"
                                 ],
-                                "id": "1ARK9VL",
+                                "id": "1LOOPLOG",
                                 "type": "Code"
-                            }
-                        ],
-                        "description": "",
-                        "enabled": true,
-                        "eval_method": "==",
-                        "id": "1ARK98F",
-                        "left_term": "[background_onedrive_copy]",
-                        "right_term": "1",
-                        "type": "If"
-                    },
-                    {
-                        "children": [],
-                        "description": "",
-                        "enabled": true,
-                        "id": "1ARK98H",
-                        "type": "End If"
-                    },
-                    {
-                        "children": [],
-                        "delay": "0",
-                        "description": "",
-                        "enabled": true,
-                        "id": "1ARKEY9",
-                        "include_path": "..\\_library\\web\\web_run_12",
-                        "type": "Include"
-                    },
-                    {
-                        "children": [
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "delay": "0.0",
+                                        "description": "Download a large file from Internet",
+                                        "enabled": true,
+                                        "file_name": [
+                                            "code_1ARK9VL.py"
+                                        ],
+                                        "id": "1ARK9VL",
+                                        "type": "Code"
+                                    },
+                                    {
+                                        "children": [],
+                                        "delay": "0.0",
+                                        "description": "Copy three large files from host to DUT",
+                                        "enabled": true,
+                                        "file_name": [
+                                            "code_1ARKC3A.py"
+                                        ],
+                                        "id": "1ARKC3A",
+                                        "type": "Code"
+                                    }
+                                ],
+                                "description": "",
+                                "enabled": true,
+                                "eval_method": "==",
+                                "id": "1ARK98F",
+                                "left_term": "[background_onedrive_copy]",
+                                "right_term": "1",
+                                "type": "If"
+                            },
+                            {
+                                "children": [],
+                                "description": "",
+                                "enabled": true,
+                                "id": "1ARK98H",
+                                "type": "End If"
+                            },
                             {
                                 "children": [],
                                 "delay": "0",
                                 "description": "",
                                 "enabled": true,
-                                "id": "1CFLY49",
-                                "include_path": "..\\_library\\productivity\\prod_open",
+                                "id": "1ARKF39",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_setup",
                                 "type": "Include"
                             },
                             {
@@ -306,78 +351,202 @@
                                 "delay": "0",
                                 "description": "",
                                 "enabled": true,
-                                "id": "1CFLY8J",
-                                "include_path": "..\\_library\\productivity\\prod_close",
+                                "id": "1ARKEY9",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_run_12",
                                 "type": "Include"
-                            }
-                        ],
-                        "description": "",
-                        "enabled": true,
-                        "eval_method": "==",
-                        "id": "1CFLXWA",
-                        "left_term": "[simple_office_launch]",
-                        "right_term": "1",
-                        "type": "If"
-                    },
-                    {
-                        "children": [],
-                        "description": "",
-                        "enabled": true,
-                        "id": "1CFLXWE",
-                        "type": "End If"
-                    },
-                    {
-                        "children": [],
-                        "delay": "0",
-                        "description": "",
-                        "enabled": true,
-                        "id": "1ARKF37",
-                        "include_path": "..\\_library\\web\\web_close_tabs",
-                        "params": [
+                            },
                             {
-                                "name": "[num_tabs_to_close]",
-                                "val_options": "",
-                                "value": "[web:tabs]"
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "delay": "0.0",
+                                        "description": "Kill Office apps and disable proxy for fresh boot telemetry",
+                                        "enabled": true,
+                                        "file_name": [
+                                            "code_1KILLOF.py"
+                                        ],
+                                        "id": "1KILLOF",
+                                        "type": "Code"
+                                    },
+                                    {
+                                        "children": [],
+                                        "delay": "0",
+                                        "description": "",
+                                        "enabled": true,
+                                        "id": "1CFLY49",
+                                        "include_path": "scenarios\\macos\\_library\\productivity\\prod_open",
+                                        "type": "Include"
+                                    },
+                                    {
+                                        "children": [],
+                                        "delay": "0",
+                                        "description": "",
+                                        "enabled": true,
+                                        "id": "1CFLY8J",
+                                        "include_path": "scenarios\\macos\\_library\\productivity\\prod_close",
+                                        "type": "Include"
+                                    },
+                                    {
+                                        "children": [],
+                                        "delay": "0.0",
+                                        "description": "Re-enable proxy for web_replay",
+                                        "enabled": true,
+                                        "file_name": [
+                                            "code_1PROXON.py"
+                                        ],
+                                        "id": "1PROXON",
+                                        "type": "Code"
+                                    }
+                                ],
+                                "description": "",
+                                "enabled": true,
+                                "eval_method": "==",
+                                "id": "1CFLXWA",
+                                "left_term": "[simple_office_launch]",
+                                "right_term": "1",
+                                "type": "If"
+                            },
+                            {
+                                "children": [],
+                                "description": "",
+                                "enabled": true,
+                                "id": "1CFLXWE",
+                                "type": "End If"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "",
+                                "enabled": true,
+                                "id": "1ARKF37",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_close_tabs",
+                                "params": [
+                                    {
+                                        "name": "[num_tabs_to_close]",
+                                        "val_options": "",
+                                        "value": "[web:tabs]"
+                                    }
+                                ],
+                                "type": "Include"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "Close Safari browser",
+                                "enabled": true,
+                                "id": "1ARKF38",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_close_browser",
+                                "type": "Include"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "",
+                                "enabled": true,
+                                "id": "1ARKF43",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_kill",
+                                "type": "Include"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "delay": "0.0",
+                                        "description": "Delete downloaded files and folders",
+                                        "enabled": true,
+                                        "file_name": [
+                                            "code_1ARLLJA.py"
+                                        ],
+                                        "id": "1ARLLJA",
+                                        "type": "Code"
+                                    }
+                                ],
+                                "description": "",
+                                "enabled": true,
+                                "eval_method": "==",
+                                "id": "1ARLJLK",
+                                "left_term": "[background_onedrive_copy]",
+                                "right_term": "1",
+                                "type": "If"
+                            },
+                            {
+                                "children": [],
+                                "description": "",
+                                "enabled": true,
+                                "id": "1ARLJLM",
+                                "type": "End If"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0.0",
+                                "description": "Print loop summary",
+                                "enabled": true,
+                                "file_name": [
+                                    "code_LOOPSUM.py"
+                                ],
+                                "id": "1LPSUM1",
+                                "type": "Code"
                             }
                         ],
-                        "type": "Include"
+                        "description": "Try running iteration",
+                        "enabled": true,
+                        "id": "1ARKTRY",
+                        "type": "Try"
                     },
                     {
                         "children": [
                             {
                                 "children": [],
                                 "delay": "0.0",
-                                "description": "Delete downloaded files and folders",
+                                "description": "Log iteration failure",
                                 "enabled": true,
                                 "file_name": [
-                                    "code_1ARLLJA.py"
+                                    "code_FAILLOG.py"
                                 ],
-                                "id": "1ARLLJA",
+                                "id": "1FAILLOG",
                                 "type": "Code"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0.0",
+                                "description": "Print loop summary",
+                                "enabled": true,
+                                "file_name": [
+                                    "code_LOOPSUM.py"
+                                ],
+                                "id": "1LPSUM2",
+                                "type": "Code"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "Close Safari browser on failure",
+                                "enabled": true,
+                                "id": "1ARKEX1",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_close_browser",
+                                "type": "Include"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "Kill Safari on failure",
+                                "enabled": true,
+                                "id": "1ARKEX2",
+                                "include_path": "scenarios\\macos\\_library\\web\\web_kill",
+                                "type": "Include"
                             }
                         ],
-                        "description": "",
+                        "description": "Cleanup on iteration failure",
                         "enabled": true,
-                        "eval_method": "==",
-                        "id": "1ARLJLK",
-                        "left_term": "[background_onedrive_copy]",
-                        "right_term": "1",
-                        "type": "If"
+                        "id": "1ARKEXC",
+                        "type": "Except"
                     },
                     {
                         "children": [],
                         "description": "",
                         "enabled": true,
-                        "id": "1ARLJLM",
-                        "type": "End If"
-                    },
-                    {
-                        "children": [],
-                        "delay": "2",
-                        "description": "",
-                        "enabled": true,
-                        "id": "1ARKFX4",
-                        "type": "Delay"
+                        "id": "1ARKTYE",
+                        "type": "End Try"
                     }
                 ],
                 "count": "[loops]",
@@ -393,6 +562,17 @@
                 "enabled": true,
                 "id": "1ARK7MX",
                 "type": "End Loop"
+            },
+            {
+                "children": [],
+                "delay": "0.0",
+                "description": "Print loop summary",
+                "enabled": true,
+                "file_name": [
+                    "code_LOOPSUM.py"
+                ],
+                "id": "1LOOPSUM",
+                "type": "Code"
             }
         ],
         "description": "",
@@ -408,7 +588,7 @@
                 "description": "",
                 "enabled": true,
                 "id": "1AKUY0M",
-                "include_path": "..\\_library\\web\\web_close_browser",
+                "include_path": "scenarios\\macos\\_library\\web\\web_close_browser",
                 "type": "Include"
             },
             {
@@ -417,7 +597,7 @@
                 "description": "",
                 "enabled": true,
                 "id": "1AKUY5R",
-                "include_path": "..\\_library\\web\\web_kill",
+                "include_path": "scenarios\\macos\\_library\\web\\web_kill",
                 "type": "Include"
             },
             {
@@ -457,7 +637,7 @@
                         "description": "",
                         "enabled": true,
                         "id": "1CFLX9W",
-                        "include_path": "..\\_library\\productivity\\prod_kill",
+                        "include_path": "scenarios\\macos\\_library\\productivity\\prod_kill",
                         "type": "Include"
                     }
                 ],
@@ -484,7 +664,7 @@
                         "description": "",
                         "enabled": true,
                         "id": "1AMCRPK",
-                        "include_path": "..\\_library\\Teams\\teams_teardown",
+                        "include_path": "scenarios\\macos\\_library\\Teams\\teams_teardown",
                         "type": "Include"
                     }
                 ],
