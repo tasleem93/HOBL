@@ -1,0 +1,109 @@
+[
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": false,
+        "id": "1KYYMK3",
+        "include_path": "scenarios\\macos\\_library\\productivity\\prod_open",
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": false,
+        "id": "1KYYM1X",
+        "include_path": "scenarios\\macos\\_library\\productivity\\prod_setup",
+        "type": "Include"
+    },
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-04-29",
+        "description": "mac_productiivty",
+        "enabled": true,
+        "id": "1KYYLAX",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "1KYYLR5",
+        "name": "[phase_reporting]",
+        "type": "Set",
+        "value": "1"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1KYYM59",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_setup",
+                "type": "Include"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "1KYYLWP",
+        "type": "Setup"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1KYYMN6",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_open",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1L013PJ",
+                "include_path": "scenarios\\macos\\_library\\productivity\\mac_prod_run",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1KYYMT1",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_close",
+                "type": "Include"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "1KYYM6T",
+        "type": "Run Test"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1KYYN29",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_kill",
+                "type": "Include"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "1KYYMUL",
+        "type": "Teardown"
+    }
+]

@@ -15,7 +15,7 @@
         "description": "",
         "enabled": true,
         "id": "V2N136",
-        "include_path": "..\\..\\misc\\recording_phase_begin",
+        "include_path": "scenarios\\windows\\_library\\misc\\recording_phase_begin",
         "type": "Include"
     },
     {
@@ -155,31 +155,27 @@
         "type": "Comment"
     },
     {
-        "id": "10RHLMT",
-        "type": "If",
-        "description": "",
-        "enabled": true,
-        "left_term": "[global:platform]",
-        "eval_method": "==",
-        "right_term": "W365",
         "children": [
             {
-                "id": "10RHTHF",
-                "type": "Type",
+                "children": [],
+                "delay": "10",
                 "description": "ALT-np2p",
                 "enabled": true,
-                "delay": "10",
+                "id": "10RHTHF",
                 "text": "\ue00a\ue00anp2p",
-                "typing_delay": "[typing_delay]",
-                "children": []
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
             }
-        ]
-    },
-    {
-        "id": "10RHT8W",
-        "type": "Else",
+        ],
         "description": "",
         "enabled": true,
+        "eval_method": "==",
+        "id": "10RHLMT",
+        "left_term": "[global:platform]",
+        "right_term": "W365",
+        "type": "If"
+    },
+    {
         "children": [
             {
                 "children": [],
@@ -191,14 +187,18 @@
                 "type": "Type",
                 "typing_delay": "400"
             }
-        ]
-    },
-    {
-        "id": "10RHLMU",
-        "type": "End If",
+        ],
         "description": "",
         "enabled": true,
-        "children": []
+        "id": "10RHT8W",
+        "type": "Else"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "10RHLMU",
+        "type": "End If"
     },
     {
         "children": [],
@@ -424,7 +424,7 @@
         "description": "",
         "enabled": true,
         "id": "V2N15P",
-        "include_path": "..\\..\\misc\\recording_phase_end",
+        "include_path": "scenarios\\windows\\_library\\misc\\recording_phase_end",
         "params": [
             {
                 "name": "[phase_category]",

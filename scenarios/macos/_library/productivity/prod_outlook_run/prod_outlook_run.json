@@ -1,0 +1,839 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-04-29",
+        "description": "Outlook compose emails",
+        "enabled": true,
+        "id": "UN67LF",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "V2N136",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_begin",
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "PSECST00",
+        "name": "[short_typing]",
+        "type": "Set Default",
+        "val_options": "0,1",
+        "value": "0"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "Compose new mail",
+        "enabled": true,
+        "id": "UPWC04",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "delay": "1",
+        "description": "New Email",
+        "enabled": true,
+        "file_name": [
+            "image_VKCEX4.png"
+        ],
+        "h": "0.168",
+        "id": "VKCEX4",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.165",
+        "x": "0.000",
+        "y": "0.000"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L1K7AN.png"
+        ],
+        "h": "0.244",
+        "id": "1L1K7AN",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.171",
+        "x": "0.040",
+        "y": "0.091"
+    },
+    {
+        "capture_id": "1L1K7AN",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L1K7T8.png"
+        ],
+        "id": "1L1K7T8",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "4",
+        "description": "recipient",
+        "enabled": true,
+        "id": "1L7AK4K",
+        "text": "bogus@outlook.com",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "1.5",
+        "description": "TAB",
+        "enabled": true,
+        "id": "V3V5XK",
+        "text": "\ue004",
+        "type": "Type",
+        "typing_delay": "400"
+    },
+    {
+        "children": [],
+        "delay": "4",
+        "description": "Subject",
+        "enabled": true,
+        "id": "UPNME6",
+        "text": "Manarola\ue00dtrip!\n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "15",
+                "description": "Body (short)",
+                "enabled": true,
+                "id": "UPTF4S",
+                "text": "We\ue00dare\ue00dthrilled\ue00dto\ue00dhave\ue00dyou\ue00djoin\ue00dus\ue00don\ue00dthis\ue00dunforgettable\ue00djourney\ue00dto\ue00dManarola!\nGet\ue00dready\ue00dfor\ue00dstunning\ue00dviews\ue00dand\ue00dlocal\ue00dflavors.\n",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "eval_method": "==",
+        "id": "PSECST01",
+        "left_term": "[short_typing]",
+        "right_term": "1",
+        "type": "If"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "122",
+                "description": "Body",
+                "enabled": true,
+                "id": "UPTF4X",
+                "text": "We\ue00dare\ue00dthrilled\ue00dto\ue00dhave\ue00dyou\ue00djoin\ue00dus\ue00don\ue00dthis\ue00dunforgettable\ue00djourney\ue00dto\ue00dManarola,\ue00dthe\ue00djewel\ue00dof\ue00dCinque\ue00dTerre!\n\n\ue03db\ue03dWhat\ue00dto\ue00dExpect:\n\n\ue03d\ue008l\ue008\ue03dStunning\ue00dViews:\ue00d\ue00d\ue03db\ue03dGet\ue00dready\ue00dfor\ue00dthe\ue00dpastel-hued\ue00dhouses\ue00dclinging\ue00dto\ue00dcliffs,\ue00doverlooking\ue00dthe\ue00dazure\ue00dMediterranean\ue00dSea.\nSunset\ue00dMagic:\ue00d\ue00dDo\ue00dnot\ue00dmiss\ue00dthe\ue00dNessun\ue00dDorma\ue00d-\ue00dthe\ue00dperfect\ue00dspot\ue00dto\ue00dsip\ue00dwine\ue00dwhile\ue00dwatching\ue00dthe\ue00dsun\ue00ddip\ue00dbehind\ue00dthe\ue00dvineyards.\nExplore:\ue00d\ue00dWander\ue00dthe\ue00dcharming\ue00dstreets,\ue00dswim\ue00din\ue00dcrystal-clear\ue00dwaters,\ue00dand\ue00dhike\ue00dthe\ue00dscenic\ue00dtrails.\nLocal\ue00dFlavors:\ue00d\ue00dIndulge\ue00din\ue00dfresh\ue00dseafood,\ue00dpest,\ue00dand\ue00dgelato.\n\n\nFeel\ue00dfree\ue00dto\ue00dreach\ue00dout\ue00dif\ue00dyou\ue00dhave\ue00dany\ue00dquestions.\ue00d\ue00dBuon\ue00dviaggio!\n",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "PSECST02",
+        "type": "Else"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "PSECST03",
+        "type": "End If"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "Insert picture",
+        "enabled": true,
+        "id": "UPW24R",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L88AC6",
+        "text": "\ue008\ue008\ue009",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L88AEJ.png"
+        ],
+        "h": "1",
+        "id": "1L88AEJ",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "capture_id": "1L88AEJ",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L88AEL.png"
+        ],
+        "id": "1L88AEL",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L88AH8",
+        "text": "\ue009",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L88AJ4.png"
+        ],
+        "h": "1",
+        "id": "1L88AJ4",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8EWEE.png"
+        ],
+        "h": "0.194",
+        "id": "1L8EWEE",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.075",
+        "x": "0.891",
+        "y": "0.349"
+    },
+    {
+        "capture_id": "1L88AJ4",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L88AJ5.png"
+        ],
+        "id": "1L88AJ5",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L88AMW",
+        "text": "\ue009",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L88ARJ",
+        "text": "\ue009",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L88ARN.png"
+        ],
+        "h": "1",
+        "id": "1L88ARN",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "capture_id": "1L88ARN",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8EMWA.png"
+        ],
+        "id": "1L8EMWA",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L88AYM",
+        "text": "\ue009",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L8AKXJ",
+        "text": "<CMD>\ue008g",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L8AM1F",
+        "text": "/Users/Shared/abl_docs/Manarola2.png\n\n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L88C28.png"
+        ],
+        "h": "1",
+        "id": "1L88C28",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "capture_id": "1L88C28",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L88C29.png"
+        ],
+        "id": "1L88C29",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "5",
+        "description": "",
+        "enabled": true,
+        "id": "1L88U8K",
+        "type": "Delay"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "6",
+                "description": "ALT-np (TODO: find macOS equivalent)",
+                "enabled": false,
+                "id": "UPVYCM",
+                "text": "\ue00a\ue00anp",
+                "type": "Type",
+                "typing_delay": "400"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "10RHT8W",
+        "type": "Else"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "Discard draft",
+        "enabled": true,
+        "id": "UPW52H",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8AUFM.png"
+        ],
+        "h": "1",
+        "id": "1L8AUFM",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "capture_id": "1L8AUFM",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8AUFN.png"
+        ],
+        "id": "1L8AUFN",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8AUJW.png"
+        ],
+        "h": "1",
+        "id": "1L8AUJW",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "capture_id": "1L8AUJW",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8AUJY.png"
+        ],
+        "id": "1L8AUJY",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8AULF.png"
+        ],
+        "h": "1",
+        "id": "1L8AULF",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8C11P.png"
+        ],
+        "h": "0.072",
+        "id": "1L8C11P",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.148",
+        "x": "0.425",
+        "y": "0.501"
+    },
+    {
+        "capture_id": "1L8C11P",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8C17J.png"
+        ],
+        "id": "1L8C17J",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "Compose new mail",
+        "enabled": true,
+        "id": "UPWATJ",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L1KKC6.png"
+        ],
+        "h": "0.394",
+        "id": "1L1KKC6",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.132",
+        "x": "0.056",
+        "y": "0.071"
+    },
+    {
+        "capture_id": "1L1KKC6",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L1KKJP.png"
+        ],
+        "id": "1L1KKJP",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "5",
+        "description": "Recipient",
+        "enabled": true,
+        "id": "UPWJXU",
+        "text": "bogus@outlook.com",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "1",
+        "description": "TAB",
+        "enabled": true,
+        "id": "V3VHFE",
+        "text": "\ue004",
+        "type": "Type",
+        "typing_delay": "400"
+    },
+    {
+        "children": [],
+        "delay": "1.5",
+        "description": "Subject",
+        "enabled": true,
+        "id": "UPWKA6",
+        "text": "doc\n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "8",
+        "description": "Body",
+        "enabled": true,
+        "id": "UPWLPC",
+        "text": "Please\ue00dreview\ue00dthe\ue00dattached\ue00ddoc.\n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "Attach document",
+        "enabled": true,
+        "id": "UPWMY5",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8EEL7.png"
+        ],
+        "h": "1",
+        "id": "1L8EEL7",
+        "recapture": false,
+        "type": "Capture",
+        "w": "1",
+        "x": "0",
+        "y": "0"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8F3XJ.png"
+        ],
+        "h": "0.053",
+        "id": "1L8F3XJ",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.222",
+        "x": "0.465",
+        "y": "0.090"
+    },
+    {
+        "capture_id": "1L8F3XJ",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8FA4M.png"
+        ],
+        "id": "1L8FA4M",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L8CHFF",
+        "text": "<CMD>\ue008g",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1L8CJCC",
+        "text": "/Users/Shared/abl_docs/sample.pptx\n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8CK5K.png"
+        ],
+        "h": "0.050",
+        "id": "1L8CK5K",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.060",
+        "x": "0.725",
+        "y": "0.642"
+    },
+    {
+        "capture_id": "1L8CK5K",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8CK7P.png"
+        ],
+        "id": "1L8CK7P",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "Discard draft",
+        "enabled": true,
+        "id": "UPX1WJ",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8CL64.png"
+        ],
+        "h": "0.041",
+        "id": "1L8CL64",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.078",
+        "x": "0.444",
+        "y": "0.088"
+    },
+    {
+        "capture_id": "1L8CL64",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8CL7Y.png"
+        ],
+        "id": "1L8CL7Y",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1L8CLFC.png"
+        ],
+        "h": "0.059",
+        "id": "1L8CLFC",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.139",
+        "x": "0.430",
+        "y": "0.509"
+    },
+    {
+        "capture_id": "1L8CLFC",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1L8CLLA.png"
+        ],
+        "id": "1L8CLLA",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "V2N15P",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_end",
+        "params": [
+            {
+                "name": "[phase_category]",
+                "val_options": "",
+                "value": "prod"
+            },
+            {
+                "name": "[phase_name]",
+                "val_options": "",
+                "value": "run_outlook"
+            }
+        ],
+        "type": "Include"
+    }
+]

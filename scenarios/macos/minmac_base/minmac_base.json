@@ -1,0 +1,512 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-04-27",
+        "description": "MinMac Base",
+        "enabled": true,
+        "id": "MMBS_INFO",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_LP01",
+        "name": "[loops]",
+        "type": "Set Default",
+        "val_options": "",
+        "value": "1"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_BT01",
+        "name": "[background_teams]",
+        "type": "Set Default",
+        "val_options": "0,1",
+        "value": "1"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_BTM1",
+        "name": "[background_timers]",
+        "type": "Set Default",
+        "val_options": "0,1",
+        "value": "1"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_BOD1",
+        "name": "[background_onedrive_copy]",
+        "type": "Set Default",
+        "val_options": "0,1",
+        "value": "1"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_SOL1",
+        "name": "[simple_office_launch]",
+        "type": "Set Default",
+        "val_options": "0,1",
+        "value": "1"
+    },
+    {
+        "children": [],
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_WRR1",
+        "name": "[web_replay_run]",
+        "type": "Set",
+        "value": "1"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0.0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_TNB1",
+                        "name": "[teams:number_of_bots]",
+                        "type": "Set",
+                        "value": "9"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0.0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_TCL1",
+                        "name": "[teams:collect_MSTeams_Logs]",
+                        "type": "Set",
+                        "value": "0"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0.0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_TCH1",
+                        "name": "[teams:collect_call_health]",
+                        "type": "Set",
+                        "value": "0"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_ITS1",
+                        "include_path": "scenarios\\macos\\_library\\Teams\\teams_setup",
+                        "type": "Include"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFT1",
+                "left_term": "[background_teams]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIT1",
+                "type": "End If"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "Upload timers executable from Host to DUT",
+                        "enabled": true,
+                        "id": "MMBS_ITM1",
+                        "include_path": "scenarios\\macos\\_library\\enterprise_collab\\timers_setup",
+                        "type": "Include"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0.0",
+                        "description": "Run timers in the background",
+                        "enabled": true,
+                        "file_name": [
+                            "code_1AMVJC3.py"
+                        ],
+                        "id": "MMBS_CTM1",
+                        "type": "Code"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFM1",
+                "left_term": "[background_timers]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIM1",
+                "type": "End If"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "Create large binaries and upload to DUT",
+                        "enabled": true,
+                        "id": "MMBS_IOU1",
+                        "include_path": "scenarios\\macos\\_library\\enterprise_collab\\onedrive_upload_setup",
+                        "type": "Include"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFO1",
+                "left_term": "[background_onedrive_copy]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIO1",
+                "type": "End If"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_IWS1",
+                "include_path": "scenarios\\macos\\_library\\web\\web_setup",
+                "type": "Include"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_IPS1",
+                        "include_path": "scenarios\\macos\\_library\\productivity\\prod_setup",
+                        "type": "Include"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFS1",
+                "left_term": "[simple_office_launch]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIS1",
+                "type": "End If"
+            },
+            {
+                "children": [],
+                "delay": "100",
+                "description": "",
+                "enabled": false,
+                "id": "MMBS_DLY1",
+                "type": "Delay"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_SETP",
+        "type": "Setup"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "delay": "0.0",
+                                "description": "Download a large file from Internet",
+                                "enabled": true,
+                                "file_name": [
+                                    "code_1ARK9VL.py"
+                                ],
+                                "id": "MMBS_CDL1",
+                                "type": "Code"
+                            }
+                        ],
+                        "description": "",
+                        "enabled": true,
+                        "eval_method": "==",
+                        "id": "MMBS_IFO2",
+                        "left_term": "[background_onedrive_copy]",
+                        "right_term": "1",
+                        "type": "If"
+                    },
+                    {
+                        "children": [],
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_EIO2",
+                        "type": "End If"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_IWR1",
+                        "include_path": "scenarios\\macos\\_library\\web\\web_run_12",
+                        "type": "Include"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "",
+                                "enabled": true,
+                                "id": "MMBS_IPO1",
+                                "include_path": "scenarios\\macos\\_library\\productivity\\prod_open",
+                                "type": "Include"
+                            },
+                            {
+                                "children": [],
+                                "delay": "0",
+                                "description": "",
+                                "enabled": true,
+                                "id": "MMBS_IPC1",
+                                "include_path": "scenarios\\macos\\_library\\productivity\\prod_close",
+                                "type": "Include"
+                            }
+                        ],
+                        "description": "",
+                        "enabled": true,
+                        "eval_method": "==",
+                        "id": "MMBS_IFS2",
+                        "left_term": "[simple_office_launch]",
+                        "right_term": "1",
+                        "type": "If"
+                    },
+                    {
+                        "children": [],
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_EIS2",
+                        "type": "End If"
+                    },
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_IWT1",
+                        "include_path": "scenarios\\macos\\_library\\web\\web_close_tabs",
+                        "params": [
+                            {
+                                "name": "[num_tabs_to_close]",
+                                "val_options": "",
+                                "value": "[web:tabs]"
+                            }
+                        ],
+                        "type": "Include"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "delay": "0.0",
+                                "description": "Delete downloaded files and folders",
+                                "enabled": true,
+                                "file_name": [
+                                    "code_1ARLLJA.py"
+                                ],
+                                "id": "MMBS_CDF1",
+                                "type": "Code"
+                            }
+                        ],
+                        "description": "",
+                        "enabled": true,
+                        "eval_method": "==",
+                        "id": "MMBS_IFO3",
+                        "left_term": "[background_onedrive_copy]",
+                        "right_term": "1",
+                        "type": "If"
+                    },
+                    {
+                        "children": [],
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_EIO3",
+                        "type": "End If"
+                    },
+                    {
+                        "children": [],
+                        "delay": "2",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_DLY2",
+                        "type": "Delay"
+                    }
+                ],
+                "count": "[loops]",
+                "delay": "0.0",
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_LOOP",
+                "type": "Loop"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_ELOP",
+                "type": "End Loop"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_RTST",
+        "type": "Run Test"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_IWB1",
+                "include_path": "scenarios\\macos\\_library\\web\\web_close_browser",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_IWK1",
+                "include_path": "scenarios\\macos\\_library\\web\\web_kill",
+                "type": "Include"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0.0",
+                        "description": "Terminate background timers",
+                        "enabled": true,
+                        "file_name": [
+                            "code_1AMW1R9.py"
+                        ],
+                        "id": "MMBS_CKT1",
+                        "type": "Code"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFM2",
+                "left_term": "[background_timers]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIM2",
+                "type": "End If"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_IPK1",
+                        "include_path": "scenarios\\macos\\_library\\productivity\\prod_kill",
+                        "type": "Include"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFS3",
+                "left_term": "[simple_office_launch]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIS3",
+                "type": "End If"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "delay": "0",
+                        "description": "",
+                        "enabled": true,
+                        "id": "MMBS_ITD1",
+                        "include_path": "scenarios\\macos\\_library\\Teams\\teams_teardown",
+                        "type": "Include"
+                    }
+                ],
+                "description": "",
+                "enabled": true,
+                "eval_method": "==",
+                "id": "MMBS_IFT2",
+                "left_term": "[background_teams]",
+                "right_term": "1",
+                "type": "If"
+            },
+            {
+                "children": [],
+                "description": "",
+                "enabled": true,
+                "id": "MMBS_EIT2",
+                "type": "End If"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "MMBS_TDWN",
+        "type": "Teardown"
+    }
+]

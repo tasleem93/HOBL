@@ -55,7 +55,7 @@ class Tool(Scenario):
         elif self.platform.lower() == "macos":
             output_file = self.scenario.dut_data_path + "/" + self.scenario.testname + "_recording.mp4"
             cmd = "/opt/homebrew/bin/ffmpeg"
-            args = "-capture_cursor 1 -capture_mouse_clicks 1 -f avfoundation -framerate 6 -i 1 -loglevel quiet -c:v libx264 -tune stillimage -crf 40 -pix_fmt yuv420p " + output_file
+            args = "-capture_cursor 1 -capture_mouse_clicks 1 -f avfoundation -framerate 6 -i 2 -loglevel quiet -c:v libx264 -tune stillimage -crf 40 -pix_fmt yuv420p " + output_file
             self._call(["/bin/bash", self.dut_exec_path + "/command_wrapper.sh " + cmd + " \"" + args + "\" " + self.stop_file + " " + "kill"], blocking=False)
 
         logging.info("Screen Recording started.")
