@@ -69,6 +69,59 @@
                 "children": [],
                 "delay": "0",
                 "description": "",
+                "enabled": false,
+                "id": "1LC5WWW",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_XL_open_code",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "20",
+                "description": "",
+                "enabled": true,
+                "id": "1LEK9R8",
+                "type": "Delay"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": false,
+                "id": "1LC5EEA",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_excel_open",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": false,
+                "id": "1LC5ENK",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_excel_run",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": false,
+                "id": "1LC5ETF",
+                "include_path": "scenarios\\macos\\_library\\productivity\\prod_excel_close",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": false,
+                "id": "1L9XCNH",
+                "include_path": "..\\..\\..\\..\\..\\br_ashu_hobl\\HOBL_MINCP\\scenarios\\macos\\_library\\productivity\\prod_word_open",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
                 "enabled": true,
                 "id": "1L013PJ",
                 "include_path": "scenarios\\macos\\_library\\productivity\\mac_prod_run",

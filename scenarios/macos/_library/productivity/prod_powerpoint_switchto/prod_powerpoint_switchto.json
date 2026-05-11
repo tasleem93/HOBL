@@ -15,7 +15,7 @@
         "description": "",
         "enabled": true,
         "id": "10U3NCL",
-        "include_path": "..\\..\\misc\\capture_dock",
+        "include_path": "scenarios\\macos\\_library\\misc\\capture_dock",
         "type": "Include"
     },
     {

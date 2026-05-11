@@ -22,7 +22,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1L054H7",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_outlook_run",
         "params": [
@@ -38,7 +38,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L054PT",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_excel_switchto",
         "type": "Include"
@@ -47,7 +47,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L054UV",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_excel_run",
         "type": "Include"
@@ -56,7 +56,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L0552N",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_word_switchto",
         "type": "Include"
@@ -65,7 +65,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L05560",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_word_run",
         "params": [
@@ -81,7 +81,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L055L7",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_powerpoint_switchto",
         "type": "Include"
@@ -90,7 +90,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L055UM",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_powerpoint_run",
         "type": "Include"
@@ -99,7 +99,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L05638",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_onenote_switchto",
         "type": "Include"
@@ -108,7 +108,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": false,
+        "enabled": true,
         "id": "1L05686",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_onenote_run",
         "type": "Include"

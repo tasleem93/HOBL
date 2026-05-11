@@ -1,0 +1,457 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-04-29",
+        "description": "Edit PowerPoint slide",
+        "enabled": true,
+        "id": "UR7X03",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "V2N1M9",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_begin",
+        "type": "Include"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "PGDN",
+                "direction": "down",
+                "enabled": true,
+                "id": "1LELFCM",
+                "type": "Scroll",
+                "x": "0.141",
+                "y": "0.329"
+            }
+        ],
+        "count": "4",
+        "delay": "1",
+        "description": "",
+        "enabled": true,
+        "id": "V5U549",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "V5U54A",
+        "type": "End Loop"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "PGDN",
+        "direction": "down",
+        "enabled": false,
+        "id": "1LELKK2",
+        "type": "Scroll",
+        "x": "0.099",
+        "y": "0.710"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "Menu",
+        "enabled": true,
+        "file_name": [
+            "image_1LELL87.png"
+        ],
+        "h": "0.088",
+        "id": "1LELL87",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.398",
+        "x": "0.003",
+        "y": "0.039"
+    },
+    {
+        "capture_id": "1LELL87",
+        "children": [],
+        "delay": "2",
+        "description": "click Home",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LELLEF.png"
+        ],
+        "id": "1LELLEF",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "5",
+        "description": "",
+        "enabled": true,
+        "id": "1LEM51W",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "capture new slide",
+        "enabled": true,
+        "file_name": [
+            "image_1LELTNW.png"
+        ],
+        "h": "0.101",
+        "id": "1LELTNW",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.182",
+        "x": "0.004",
+        "y": "0.075"
+    },
+    {
+        "capture_id": "1LELTNW",
+        "children": [],
+        "delay": "2",
+        "description": "new slide",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LELTW3.png"
+        ],
+        "id": "1LELTW3",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "5",
+        "description": "",
+        "enabled": true,
+        "id": "1LEM55N",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1LEU12C.png"
+        ],
+        "h": "0.279",
+        "id": "1LEU12C",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.382",
+        "x": "0.411",
+        "y": "0.417"
+    },
+    {
+        "capture_id": "1LEU12C",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LEU15X.png"
+        ],
+        "id": "1LEU15X",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "4.5",
+        "description": "Select all, delete content, paste",
+        "enabled": true,
+        "id": "UR969J",
+        "text": "\u2318\ue00d+\ue00da\ue00d\u2318\ue00d+\ue00dDELETE\ue00d\u2318\ue00d+\ue00dv\n",
+        "type": "Type",
+        "typing_delay": "400"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "PGUP",
+                "direction": "up",
+                "enabled": true,
+                "id": "1LEMLPW",
+                "type": "Scroll",
+                "x": "0.113",
+                "y": "0.578"
+            }
+        ],
+        "count": "4",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "V36K62",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "V36K63",
+        "type": "End Loop"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "PGDN",
+                "direction": "down",
+                "enabled": true,
+                "id": "1LEMM05",
+                "type": "Scroll",
+                "x": "0.086",
+                "y": "0.512"
+            }
+        ],
+        "count": "4",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "V36KVV",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "V36KVW",
+        "type": "End Loop"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "V36LYF",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "4",
+        "description": "Select and delete slide (Shift+F10 context menu not applicable on macOS; using Delete key directly)",
+        "enabled": true,
+        "id": "UR9PPC",
+        "text": "\ue008\ue036\ue008\ue017",
+        "type": "Type",
+        "typing_delay": "500"
+    },
+    {
+        "children": [],
+        "delay": "3.5",
+        "description": "Copy paste slide",
+        "enabled": true,
+        "id": "UR9UHR",
+        "text": "\ue009cv\n\n",
+        "type": "Type",
+        "typing_delay": "500"
+    },
+    {
+        "children": [],
+        "delay": "2.5",
+        "description": "Undo and save",
+        "enabled": true,
+        "id": "UR9VH2",
+        "text": "\ue009z\ue009\ue009s\ue009\n\n\n\n",
+        "type": "Type",
+        "typing_delay": "500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1LEUP5K.png"
+        ],
+        "h": "0.101",
+        "id": "1LEUP5K",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.420",
+        "x": "0.005",
+        "y": "0.000"
+    },
+    {
+        "capture_id": "1LEUP5K",
+        "children": [],
+        "delay": "2",
+        "description": "File",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LEUP95.png"
+        ],
+        "id": "1LEUP95",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1LEUWCC.png"
+        ],
+        "h": "0.582",
+        "id": "1LEUWCC",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.158",
+        "x": "0.098",
+        "y": "0.047"
+    },
+    {
+        "capture_id": "1LEUWCC",
+        "children": [],
+        "delay": "2",
+        "description": "info/properties",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LEUWHY.png"
+        ],
+        "id": "1LEUWHY",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1LEUXAW.png"
+        ],
+        "h": "0.522",
+        "id": "1LEUXAW",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.316",
+        "x": "0.352",
+        "y": "0.149"
+    },
+    {
+        "capture_id": "1LEUXAW",
+        "children": [],
+        "delay": "2",
+        "description": "going back to main screen",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LEUXH0.png"
+        ],
+        "id": "1LEUXH0",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1LEV83Y.png"
+        ],
+        "h": "0.068",
+        "id": "1LEV83Y",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.486",
+        "x": "0.001",
+        "y": "0.059"
+    },
+    {
+        "capture_id": "1LEV83Y",
+        "children": [],
+        "delay": "2",
+        "description": "insert",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LEV898.png"
+        ],
+        "id": "1LEV898",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "capture_id": "1LEV83Y",
+        "children": [],
+        "delay": "2",
+        "description": "Home",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LEV8P5.png"
+        ],
+        "id": "1LEV8P5",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "V2N1PJ",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_end",
+        "params": [
+            {
+                "name": "[phase_category]",
+                "val_options": "",
+                "value": "prod"
+            },
+            {
+                "name": "[phase_name]",
+                "val_options": "",
+                "value": "run_powerpoint"
+            }
+        ],
+        "type": "Include"
+    }
+]

@@ -15,7 +15,7 @@
         "description": "",
         "enabled": true,
         "id": "LPVYHJG",
-        "include_path": "..\\..\\misc\\recording_phase_begin",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_begin",
         "type": "Include"
     },
     {
@@ -24,7 +24,7 @@
         "description": "",
         "enabled": true,
         "id": "WJKZJV5",
-        "include_path": "..\\prod_outlook_switchto",
+        "include_path": "scenarios\\macos\\_library\\productivity\\prod_outlook_switchto",
         "type": "Include"
     },
     {
@@ -51,7 +51,7 @@
         "description": "",
         "enabled": true,
         "id": "M1FRUAD",
-        "include_path": "..\\..\\misc\\recording_phase_end",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_end",
         "params": [
             {
                 "name": "[phase_category]",

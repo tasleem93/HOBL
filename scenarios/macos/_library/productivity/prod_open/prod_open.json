@@ -22,7 +22,7 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "UTHJJ2",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_excel_open",
         "type": "Include"
@@ -32,8 +32,26 @@
         "delay": "0",
         "description": "",
         "enabled": true,
+        "id": "1LKUKWK",
+        "include_path": "scenarios\\macos\\_library\\productivity\\prod_XL_open_code",
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": false,
         "id": "UTHJLM",
         "include_path": "scenarios\\macos\\_library\\productivity\\prod_word_open",
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "1LL1C6H",
+        "include_path": "scenarios\\macos\\_library\\productivity\\prod_word_open_code",
         "type": "Include"
     },
     {

@@ -10,9 +10,11 @@ def run():
     return
 
 def run_user_only():
+    import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_XL_open_code')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_excel_open')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_onenote_open')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_outlook_open')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_powerpoint_open')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_word_open')
+    import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_word_open_code')
     return

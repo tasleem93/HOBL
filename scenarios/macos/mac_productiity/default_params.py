@@ -11,8 +11,13 @@ def run():
     return
 
 def run_user_only():
+    import_run_user_only('..\\..\\..\\..\\..\\br_ashu_hobl\\HOBL_MINCP\\scenarios\\macos\\_library\\productivity\\prod_word_open', here=__file__)
     import_run_user_only('scenarios\\macos\\_library\\productivity\\mac_prod_run')
+    import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_XL_open_code')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_close')
+    import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_excel_close')
+    import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_excel_open')
+    import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_excel_run')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_kill')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_open')
     import_run_user_only('scenarios\\macos\\_library\\productivity\\prod_setup')

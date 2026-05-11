@@ -11,27 +11,38 @@
     },
     {
         "children": [],
-        "delay": "0",
+        "delay": "0.0",
         "description": "",
         "enabled": true,
+        "file_name": [
+            "code_1LEKX8T.py"
+        ],
+        "id": "1LEKX8T",
+        "type": "Code"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": false,
         "id": "V2MVKY",
-        "include_path": "..\\..\\misc\\recording_phase_begin",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_begin",
         "type": "Include"
     },
     {
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "UHA64V",
-        "include_path": "..\\prod_powerpoint_switchto",
+        "include_path": "scenarios\\macos\\_library\\productivity\\prod_powerpoint_switchto",
         "type": "Include"
     },
     {
         "children": [],
         "delay": "5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "UHA612",
         "type": "Delay"
     },
@@ -39,7 +50,7 @@
         "children": [],
         "delay": "5",
         "description": "ESC",
-        "enabled": true,
+        "enabled": false,
         "id": "UWK84K",
         "text": "\ue00c",
         "type": "Type",
@@ -107,9 +118,9 @@
         "children": [],
         "delay": "0",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "V2MW49",
-        "include_path": "..\\..\\misc\\recording_phase_end",
+        "include_path": "scenarios\\macos\\_library\\misc\\recording_phase_end",
         "params": [
             {
                 "name": "[phase_category]",

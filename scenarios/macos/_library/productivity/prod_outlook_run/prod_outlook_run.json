@@ -342,7 +342,7 @@
     {
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "open dialog to type file path",
         "enabled": true,
         "id": "1L8AKXJ",
         "text": "<CMD>\ue008g",
@@ -352,7 +352,7 @@
     {
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "type file path",
         "enabled": true,
         "id": "1L8AM1F",
         "text": "/Users/Shared/abl_docs/Manarola2.png\n\n",
