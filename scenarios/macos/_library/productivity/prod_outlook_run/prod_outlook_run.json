@@ -687,8 +687,68 @@
     },
     {
         "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1LM6W4K.png"
+        ],
+        "h": "0.081",
+        "id": "1LM6W4K",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.129",
+        "x": "0.560",
+        "y": "0.134"
+    },
+    {
+        "capture_id": "1LM6W4K",
+        "children": [],
         "delay": "2",
         "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LM6W8L.png"
+        ],
+        "id": "1LM6W8L",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "capture_id": "1L8F3XJ",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": false,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1LM51V8.png"
+        ],
+        "id": "1LM51V8",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1LM4T4P",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "<CMD><SHIFT>g",
         "enabled": true,
         "id": "1L8CHFF",
         "text": "<CMD>\ue008g",
@@ -698,7 +758,7 @@
     {
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "type path /Users/Shared/abl_docs/sample.pptx",
         "enabled": true,
         "id": "1L8CJCC",
         "text": "/Users/Shared/abl_docs/sample.pptx\n",
