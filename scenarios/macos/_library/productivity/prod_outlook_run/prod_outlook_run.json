@@ -175,7 +175,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1L88AC6",
         "text": "\ue008\ue008\ue009",
         "type": "Type",
@@ -185,7 +185,7 @@
         "children": [],
         "delay": "0.5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "file_name": [
             "image_1L88AEJ.png"
         ],
@@ -202,7 +202,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "exception_on": "No match",
         "file_name": [
             "image_1L88AEL.png"
@@ -219,7 +219,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1L88AH8",
         "text": "\ue009",
         "type": "Type",
@@ -229,7 +229,7 @@
         "children": [],
         "delay": "0.5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "file_name": [
             "image_1L88AJ4.png"
         ],
@@ -245,7 +245,7 @@
         "children": [],
         "delay": "0.5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "file_name": [
             "image_1L8EWEE.png"
         ],
@@ -262,7 +262,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "exception_on": "No match",
         "file_name": [
             "image_1L88AJ5.png"
@@ -279,7 +279,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1L88AMW",
         "text": "\ue009",
         "type": "Type",
@@ -289,7 +289,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1L88ARJ",
         "text": "\ue009",
         "type": "Type",
@@ -299,7 +299,7 @@
         "children": [],
         "delay": "0.5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "file_name": [
             "image_1L88ARN.png"
         ],
@@ -316,7 +316,7 @@
         "children": [],
         "delay": "2",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "exception_on": "No match",
         "file_name": [
             "image_1L8EMWA.png"
@@ -331,11 +331,47 @@
     },
     {
         "children": [],
+        "delay": "0.0",
+        "description": "End Insert Picture",
+        "enabled": true,
+        "id": "1LNXKYH",
+        "type": "Comment"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": false,
+        "id": "1LNXL9C",
+        "type": "Try"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": false,
+        "id": "1LNXL9F",
+        "type": "Except"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": false,
+        "id": "1LNXL9H",
+        "type": "On Success"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": false,
+        "id": "1LNXL9K",
+        "type": "End Try"
+    },
+    {
+        "children": [],
         "delay": "2",
         "description": "",
         "enabled": true,
         "id": "1L88AYM",
-        "text": "\ue009",
+        "text": "\ue03d\ue008i",
         "type": "Type",
         "typing_delay": "[typing_delay]"
     },

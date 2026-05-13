@@ -51,7 +51,7 @@
         "delay": "2",
         "description": "PGDN",
         "direction": "down",
-        "enabled": false,
+        "enabled": true,
         "id": "1LELKK2",
         "type": "Scroll",
         "x": "0.099",
@@ -61,7 +61,7 @@
         "children": [],
         "delay": "0.5",
         "description": "Menu",
-        "enabled": true,
+        "enabled": false,
         "file_name": [
             "image_1LELL87.png"
         ],
@@ -78,7 +78,7 @@
         "children": [],
         "delay": "2",
         "description": "click Home",
-        "enabled": true,
+        "enabled": false,
         "exception_on": "No match",
         "file_name": [
             "image_1LELLEF.png"
@@ -95,7 +95,7 @@
         "children": [],
         "delay": "5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1LEM51W",
         "type": "Delay"
     },
@@ -103,7 +103,7 @@
         "children": [],
         "delay": "0.5",
         "description": "capture new slide",
-        "enabled": true,
+        "enabled": false,
         "file_name": [
             "image_1LELTNW.png"
         ],
@@ -116,11 +116,19 @@
         "y": "0.075"
     },
     {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": false,
+        "id": "1LNK4HN",
+        "type": "Delay"
+    },
+    {
         "capture_id": "1LELTNW",
         "children": [],
         "delay": "2",
         "description": "new slide",
-        "enabled": true,
+        "enabled": false,
         "exception_on": "No match",
         "file_name": [
             "image_1LELTW3.png"
@@ -137,9 +145,19 @@
         "children": [],
         "delay": "5",
         "description": "",
-        "enabled": true,
+        "enabled": false,
         "id": "1LEM55N",
         "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1LNLMNE",
+        "text": "\ue03d\ue008n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
     },
     {
         "children": [],
@@ -147,27 +165,27 @@
         "description": "",
         "enabled": true,
         "file_name": [
-            "image_1LEU12C.png"
+            "image_1LNKM56.png"
         ],
-        "h": "0.279",
-        "id": "1LEU12C",
+        "h": "0.637",
+        "id": "1LNKM56",
         "recapture": false,
         "type": "Capture",
-        "w": "0.382",
-        "x": "0.411",
-        "y": "0.417"
+        "w": "0.538",
+        "x": "0.337",
+        "y": "0.192"
     },
     {
-        "capture_id": "1LEU12C",
+        "capture_id": "1LNKM56",
         "children": [],
         "delay": "2",
         "description": "",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
-            "image_1LEU15X.png"
+            "image_1LNKMF9.png"
         ],
-        "id": "1LEU15X",
+        "id": "1LNKMF9",
         "match_threshold": "",
         "primary": true,
         "scale": "",
@@ -178,12 +196,32 @@
     {
         "children": [],
         "delay": "4.5",
-        "description": "Select all, delete content, paste",
+        "description": "Select all",
         "enabled": true,
         "id": "UR969J",
-        "text": "\u2318\ue00d+\ue00da\ue00d\u2318\ue00d+\ue00dDELETE\ue00d\u2318\ue00d+\ue00dv\n",
+        "text": "\ue03da\n",
         "type": "Type",
         "typing_delay": "400"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "delete",
+        "enabled": true,
+        "id": "1LMHFCW",
+        "text": "\ue017",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "paste",
+        "enabled": false,
+        "id": "1LMHFJH",
+        "text": "\ue03dv",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
     },
     {
         "children": [
@@ -255,19 +293,29 @@
         "description": "Select and delete slide (Shift+F10 context menu not applicable on macOS; using Delete key directly)",
         "enabled": true,
         "id": "UR9PPC",
-        "text": "\ue008\ue036\ue008\ue017",
+        "text": "\ue008\ue036\ue017",
         "type": "Type",
         "typing_delay": "500"
     },
     {
         "children": [],
         "delay": "3.5",
-        "description": "Copy paste slide",
+        "description": "Copy slide",
         "enabled": true,
         "id": "UR9UHR",
-        "text": "\ue009cv\n\n",
+        "text": "\ue03dc\n\n\n\n",
         "type": "Type",
         "typing_delay": "500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "paste",
+        "enabled": true,
+        "id": "1LMHE71",
+        "text": "\ue03dv\n\n",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
     },
     {
         "children": [],
@@ -275,37 +323,47 @@
         "description": "Undo and save",
         "enabled": true,
         "id": "UR9VH2",
-        "text": "\ue009z\ue009\ue009s\ue009\n\n\n\n",
+        "text": "\ue03dz\ue03ds\n\n\n\n",
         "type": "Type",
         "typing_delay": "500"
     },
     {
         "children": [],
+        "delay": "2",
+        "description": "save",
+        "enabled": true,
+        "id": "1LMHHK3",
+        "text": "<CMD>s",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
         "delay": "0.5",
         "description": "",
         "enabled": true,
         "file_name": [
-            "image_1LEUP5K.png"
+            "image_1LNLA4U.png"
         ],
-        "h": "0.101",
-        "id": "1LEUP5K",
+        "h": "0.050",
+        "id": "1LNLA4U",
         "recapture": false,
         "type": "Capture",
-        "w": "0.420",
-        "x": "0.005",
-        "y": "0.000"
+        "w": "0.397",
+        "x": "0.003",
+        "y": "0.001"
     },
     {
-        "capture_id": "1LEUP5K",
+        "capture_id": "1LNLA4U",
         "children": [],
         "delay": "2",
-        "description": "File",
+        "description": "",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
-            "image_1LEUP95.png"
+            "image_1LNLA8R.png"
         ],
-        "id": "1LEUP95",
+        "id": "1LNLA8R",
         "match_threshold": "",
         "primary": true,
         "scale": "",
@@ -319,27 +377,27 @@
         "description": "",
         "enabled": true,
         "file_name": [
-            "image_1LEUWCC.png"
+            "image_1LNLAKY.png"
         ],
-        "h": "0.582",
-        "id": "1LEUWCC",
+        "h": "0.249",
+        "id": "1LNLAKY",
         "recapture": false,
         "type": "Capture",
-        "w": "0.158",
-        "x": "0.098",
-        "y": "0.047"
+        "w": "0.159",
+        "x": "0.093",
+        "y": "0.363"
     },
     {
-        "capture_id": "1LEUWCC",
+        "capture_id": "1LNLAKY",
         "children": [],
         "delay": "2",
-        "description": "info/properties",
+        "description": "",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
-            "image_1LEUWHY.png"
+            "image_1LNLAVF.png"
         ],
-        "id": "1LEUWHY",
+        "id": "1LNLAVF",
         "match_threshold": "",
         "primary": true,
         "scale": "",
@@ -353,27 +411,27 @@
         "description": "",
         "enabled": true,
         "file_name": [
-            "image_1LEUXAW.png"
+            "image_1LNLC15.png"
         ],
-        "h": "0.522",
-        "id": "1LEUXAW",
+        "h": "0.533",
+        "id": "1LNLC15",
         "recapture": false,
         "type": "Capture",
-        "w": "0.316",
-        "x": "0.352",
-        "y": "0.149"
+        "w": "0.327",
+        "x": "0.336",
+        "y": "0.123"
     },
     {
-        "capture_id": "1LEUXAW",
+        "capture_id": "1LNLC15",
         "children": [],
         "delay": "2",
-        "description": "going back to main screen",
+        "description": "",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
-            "image_1LEUXH0.png"
+            "image_1LNLC3N.png"
         ],
-        "id": "1LEUXH0",
+        "id": "1LNLC3N",
         "match_threshold": "",
         "primary": true,
         "scale": "",
