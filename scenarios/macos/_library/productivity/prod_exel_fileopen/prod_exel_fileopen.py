@@ -10,7 +10,7 @@ from . import default_params
 # Description:
 #   Automatically generated standard scenario.
 
-class ProdXlOpenCode(core.app_scenario.Scenario):
+class ProdExelFileopen(core.app_scenario.Scenario):
     # Set default parameters:
     default_params.run()
 
@@ -18,7 +18,7 @@ class ProdXlOpenCode(core.app_scenario.Scenario):
 
     def setUp(self):
         # Load actions JSON.
-        actions_json = os.path.join(os.path.dirname(__file__), "prod_XL_open_code.json")
+        actions_json = os.path.join(os.path.dirname(__file__), "prod_exel_fileopen.json")
         self.actions = self.load_action_json(actions_json)
 
         # Execute Setup actions, if they exist

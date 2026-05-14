@@ -152,7 +152,7 @@
     {
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "insert new slide",
         "enabled": true,
         "id": "1LNLMNE",
         "text": "\ue03d\ue008n",
@@ -162,8 +162,8 @@
     {
         "children": [],
         "delay": "0.5",
-        "description": "",
-        "enabled": true,
+        "description": "capture new slide",
+        "enabled": false,
         "file_name": [
             "image_1LNKM56.png"
         ],
@@ -179,8 +179,8 @@
         "capture_id": "1LNKM56",
         "children": [],
         "delay": "2",
-        "description": "",
-        "enabled": true,
+        "description": "click new slide",
+        "enabled": false,
         "exception_on": "No match",
         "file_name": [
             "image_1LNKMF9.png"
@@ -197,7 +197,7 @@
         "children": [],
         "delay": "4.5",
         "description": "Select all",
-        "enabled": true,
+        "enabled": false,
         "id": "UR969J",
         "text": "\ue03da\n",
         "type": "Type",
@@ -207,7 +207,7 @@
         "children": [],
         "delay": "2",
         "description": "delete",
-        "enabled": true,
+        "enabled": false,
         "id": "1LMHFCW",
         "text": "\ue017",
         "type": "Type",
@@ -216,8 +216,28 @@
     {
         "children": [],
         "delay": "2",
+        "description": "take screenshot",
+        "enabled": true,
+        "id": "1LR1EYX",
+        "text": "\ue009\ue03d\ue0083",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "copy screenshot",
+        "enabled": true,
+        "id": "1LR1E0T",
+        "text": "\ue03dc",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
         "description": "paste",
-        "enabled": false,
+        "enabled": true,
         "id": "1LMHFJH",
         "text": "\ue03dv",
         "type": "Type",
