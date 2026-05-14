@@ -39,22 +39,6 @@
     },
     {
         "children": [],
-        "delay": "1",
-        "description": "New Email",
-        "enabled": true,
-        "file_name": [
-            "image_VKCEX4.png"
-        ],
-        "h": "0.168",
-        "id": "VKCEX4",
-        "recapture": false,
-        "type": "Capture",
-        "w": "0.165",
-        "x": "0.000",
-        "y": "0.000"
-    },
-    {
-        "children": [],
         "delay": "0.5",
         "description": "",
         "enabled": true,
@@ -240,22 +224,6 @@
         "w": "1",
         "x": "0",
         "y": "0"
-    },
-    {
-        "children": [],
-        "delay": "0.5",
-        "description": "",
-        "enabled": false,
-        "file_name": [
-            "image_1L8EWEE.png"
-        ],
-        "h": "0.194",
-        "id": "1L8EWEE",
-        "recapture": false,
-        "type": "Capture",
-        "w": "0.075",
-        "x": "0.891",
-        "y": "0.349"
     },
     {
         "capture_id": "1L88AJ4",
@@ -537,22 +505,6 @@
         "description": "",
         "enabled": true,
         "file_name": [
-            "image_1L8AULF.png"
-        ],
-        "h": "1",
-        "id": "1L8AULF",
-        "recapture": false,
-        "type": "Capture",
-        "w": "1",
-        "x": "0",
-        "y": "0"
-    },
-    {
-        "children": [],
-        "delay": "0.5",
-        "description": "",
-        "enabled": true,
-        "file_name": [
             "image_1L8C11P.png"
         ],
         "h": "0.072",
@@ -670,22 +622,6 @@
         "enabled": true,
         "id": "UPWMY5",
         "type": "Comment"
-    },
-    {
-        "children": [],
-        "delay": "0.5",
-        "description": "",
-        "enabled": true,
-        "file_name": [
-            "image_1L8EEL7.png"
-        ],
-        "h": "1",
-        "id": "1L8EEL7",
-        "recapture": false,
-        "type": "Capture",
-        "w": "1",
-        "x": "0",
-        "y": "0"
     },
     {
         "children": [],

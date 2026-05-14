@@ -47,7 +47,7 @@
     {
         "children": [],
         "delay": "0.5",
-        "description": "",
+        "description": "capture new email",
         "enabled": true,
         "file_name": [
             "image_1L1K7AN.png"
@@ -64,7 +64,7 @@
         "capture_id": "1L1K7AN",
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "new eMail",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
@@ -165,10 +165,10 @@
     {
         "children": [],
         "delay": "2",
-        "description": "",
-        "enabled": false,
+        "description": "paste already copied picture",
+        "enabled": true,
         "id": "1LP1NYF",
-        "text": "<CMD>c",
+        "text": "\ue03dv",
         "type": "Type",
         "typing_delay": "[typing_delay]"
     },
@@ -182,85 +182,6 @@
     },
     {
         "children": [],
-        "delay": "2",
-        "description": "",
-        "enabled": true,
-        "id": "1L88AYM",
-        "text": "\ue03d\ue008i",
-        "type": "Type",
-        "typing_delay": "[typing_delay]"
-    },
-    {
-        "children": [],
-        "delay": "2",
-        "description": "open dialog to type file path",
-        "enabled": true,
-        "id": "1L8AKXJ",
-        "text": "<CMD>\ue008g",
-        "type": "Type",
-        "typing_delay": "[typing_delay]"
-    },
-    {
-        "children": [],
-        "delay": "2",
-        "description": "type file path",
-        "enabled": true,
-        "id": "1L8AM1F",
-        "text": "/Users/Shared/abl_docs/Manarola2.png\n\n",
-        "type": "Type",
-        "typing_delay": "[typing_delay]"
-    },
-    {
-        "children": [],
-        "delay": "0.5",
-        "description": "",
-        "enabled": true,
-        "file_name": [
-            "image_1L88C28.png"
-        ],
-        "h": "1",
-        "id": "1L88C28",
-        "recapture": false,
-        "type": "Capture",
-        "w": "1",
-        "x": "0",
-        "y": "0"
-    },
-    {
-        "capture_id": "1L88C28",
-        "children": [],
-        "delay": "2",
-        "description": "",
-        "enabled": true,
-        "exception_on": "No match",
-        "file_name": [
-            "image_1L88C29.png"
-        ],
-        "id": "1L88C29",
-        "match_threshold": "",
-        "primary": true,
-        "scale": "",
-        "type": "Click",
-        "x": "0.500",
-        "y": "0.500"
-    },
-    {
-        "children": [],
-        "delay": "5",
-        "description": "",
-        "enabled": true,
-        "id": "1L88U8K",
-        "type": "Delay"
-    },
-    {
-        "children": [],
-        "description": "",
-        "enabled": true,
-        "id": "10RHT8W",
-        "type": "Else"
-    },
-    {
-        "children": [],
         "delay": "0.0",
         "description": "Discard draft",
         "enabled": true,
@@ -270,7 +191,7 @@
     {
         "children": [],
         "delay": "0.5",
-        "description": "",
+        "description": "capture email screen",
         "enabled": true,
         "file_name": [
             "image_1L8AUFM.png"
@@ -287,7 +208,7 @@
         "capture_id": "1L8AUFM",
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "click Discard",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
@@ -304,7 +225,7 @@
     {
         "children": [],
         "delay": "0.5",
-        "description": "",
+        "description": "Capture Discard popup",
         "enabled": true,
         "file_name": [
             "image_1L8AUJW.png"
@@ -321,7 +242,7 @@
         "capture_id": "1L8AUJW",
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "click discard",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
@@ -338,23 +259,7 @@
     {
         "children": [],
         "delay": "0.5",
-        "description": "",
-        "enabled": true,
-        "file_name": [
-            "image_1L8AULF.png"
-        ],
-        "h": "1",
-        "id": "1L8AULF",
-        "recapture": false,
-        "type": "Capture",
-        "w": "1",
-        "x": "0",
-        "y": "0"
-    },
-    {
-        "children": [],
-        "delay": "0.5",
-        "description": "",
+        "description": "Discard",
         "enabled": true,
         "file_name": [
             "image_1L8C11P.png"
@@ -371,7 +276,7 @@
         "capture_id": "1L8C11P",
         "children": [],
         "delay": "2",
-        "description": "",
+        "description": "Discard outllook",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
