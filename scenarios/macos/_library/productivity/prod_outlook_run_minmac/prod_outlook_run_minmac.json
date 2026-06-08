@@ -200,7 +200,7 @@
         "capture_id": "1L8AUFM",
         "children": [],
         "delay": "2",
-        "description": "click Discard",
+        "description": "click top Discard button",
         "enabled": true,
         "exception_on": "No match",
         "file_name": [
