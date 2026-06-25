@@ -1,0 +1,52 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-06-22",
+        "description": "",
+        "enabled": true,
+        "id": "1NP4JXY",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "1NP4KA7",
+        "include_path": "scenarios\\windows\\_library\\web\\web_clear_cache",
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "1NP4LYW",
+        "include_path": "scenarios\\windows\\_library\\web\\web_enter_address",
+        "params": [
+            {
+                "name": "web_site_address",
+                "val_options": "",
+                "value": "https://www.canva.in/"
+            },
+            {
+                "name": "new_tab",
+                "val_options": "0, 1",
+                "value": "0"
+            },
+            {
+                "name": "[web_site_load_time]",
+                "val_options": "",
+                "value": "20"
+            },
+            {
+                "name": "[event_tag]",
+                "val_options": "",
+                "value": ""
+            }
+        ],
+        "type": "Include"
+    }
+]

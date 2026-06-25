@@ -1,0 +1,62 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-06-22",
+        "description": "canvas presentation WebApp",
+        "enabled": true,
+        "id": "1NP4ECC",
+        "type": "Information"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1NP4FYE",
+                "include_path": "scenarios\\windows\\_library\\web\\web_setup",
+                "params": [
+                    {
+                        "name": "[disable_delay]",
+                        "val_options": "0,1",
+                        "value": "0"
+                    }
+                ],
+                "type": "Include"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "1NP4FP9",
+        "type": "Setup"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1NP4N10",
+                "include_path": "scenarios\\windows\\_library\\productivity\\prod_canvas_open",
+                "type": "Include"
+            },
+            {
+                "children": [],
+                "delay": "0",
+                "description": "",
+                "enabled": true,
+                "id": "1NR8FF0",
+                "include_path": "scenarios\\windows\\_library\\productivity\\prod_canvas_run",
+                "type": "Include"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "1NP4H15",
+        "type": "Run Test"
+    }
+]

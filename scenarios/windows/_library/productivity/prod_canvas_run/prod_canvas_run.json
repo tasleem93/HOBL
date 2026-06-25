@@ -1,0 +1,251 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-06-23",
+        "description": "",
+        "enabled": true,
+        "id": "1NR8EJN",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "1NR8EWK",
+        "include_path": "scenarios\\windows\\_library\\web\\web_enter_address",
+        "params": [
+            {
+                "name": "web_site_address",
+                "val_options": "",
+                "value": "https://www.canva.com/design/play?type=TACQ-gtv2Yk&category=tAExRLg81RI&locale=en"
+            },
+            {
+                "name": "new_tab",
+                "val_options": "0, 1",
+                "value": "0"
+            },
+            {
+                "name": "[web_site_load_time]",
+                "val_options": "",
+                "value": "20"
+            },
+            {
+                "name": "[event_tag]",
+                "val_options": "",
+                "value": ""
+            }
+        ],
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NR91JR.png"
+        ],
+        "h": "0.735",
+        "id": "1NR91JR",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.718",
+        "x": "0.179",
+        "y": "0.154"
+    },
+    {
+        "capture_id": "1NR91JR",
+        "children": [],
+        "delay": "2",
+        "description": "close popup",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NR91NX.png"
+        ],
+        "id": "1NR91NX",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NR9273.png"
+        ],
+        "h": "0.455",
+        "id": "1NR9273",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.233",
+        "x": "0.059",
+        "y": "0.259"
+    },
+    {
+        "capture_id": "1NR9273",
+        "children": [],
+        "delay": "2",
+        "description": "startup ppt",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NR9297.png"
+        ],
+        "id": "1NR9297",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NRE8C0.png"
+        ],
+        "h": "0.393",
+        "id": "1NRE8C0",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.268",
+        "x": "0.007",
+        "y": "0.139"
+    },
+    {
+        "capture_id": "1NRE8C0",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NRE8PU.png"
+        ],
+        "id": "1NRE8PU",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "10",
+        "description": "",
+        "enabled": true,
+        "id": "1NR92W9",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NR9N70.png"
+        ],
+        "h": "0.115",
+        "id": "1NR9N70",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.239",
+        "x": "0.286",
+        "y": "0.806"
+    },
+    {
+        "capture_id": "1NR9N70",
+        "children": [],
+        "delay": "2",
+        "description": "select slide 1",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NR9N8X.png"
+        ],
+        "id": "1NR9N8X",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "capture_id": "1NR9N70",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": false,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NR9P04.png"
+        ],
+        "id": "1NR9P04",
+        "match_threshold": "",
+        "scale": "",
+        "type": "Move",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "type right",
+                "enabled": true,
+                "id": "1NRF160",
+                "text": "\ue014",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "count": "10",
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "1NRF10R",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1NRF10T",
+        "type": "End Loop"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "type right",
+        "enabled": false,
+        "id": "1NRE04R",
+        "text": "\ue014",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": false,
+        "id": "1NRE0EK",
+        "text": "\ue014",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    }
+]

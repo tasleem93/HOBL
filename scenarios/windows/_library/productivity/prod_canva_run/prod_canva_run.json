@@ -1,0 +1,226 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-06-24",
+        "description": "",
+        "enabled": true,
+        "id": "1NTPKC1",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0",
+        "description": "",
+        "enabled": true,
+        "id": "1NTPRPT",
+        "include_path": "scenarios\\windows\\_library\\web\\web_enter_address",
+        "params": [
+            {
+                "name": "web_site_address",
+                "val_options": "",
+                "value": "https://www.canva.com/design/DAHNd22g07k/SSkxql7h5XkXowB7cYWppg/edit?locale=en"
+            },
+            {
+                "name": "new_tab",
+                "val_options": "0, 1",
+                "value": "0"
+            },
+            {
+                "name": "[web_site_load_time]",
+                "val_options": "",
+                "value": "20"
+            },
+            {
+                "name": "[event_tag]",
+                "val_options": "",
+                "value": ""
+            }
+        ],
+        "type": "Include"
+    },
+    {
+        "children": [],
+        "delay": "10",
+        "description": "",
+        "enabled": true,
+        "id": "1NTU78X",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NTV2L8.png"
+        ],
+        "h": "0.203",
+        "id": "1NTV2L8",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.285",
+        "x": "0.053",
+        "y": "0.729"
+    },
+    {
+        "capture_id": "1NTV2L8",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NTV2P8.png"
+        ],
+        "id": "1NTV2P8",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "right",
+                "enabled": true,
+                "id": "1NTPTEL",
+                "text": "\ue014",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "count": "7",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "1NTPT82",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1NTPT83",
+        "type": "End Loop"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "create new slide",
+        "enabled": true,
+        "id": "1NTXMWR",
+        "text": "\ue009\ue007",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "copy text",
+        "enabled": true,
+        "id": "1NTXNLV",
+        "text": "\ue009v",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "esc",
+        "enabled": true,
+        "id": "1NTY3H0",
+        "text": "\ue00c\ue00c",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "scrol left",
+                "enabled": true,
+                "id": "1NTXP5T",
+                "text": "\ue012",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "count": "7",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "1NTXP1W",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1NTXP1Y",
+        "type": "End Loop"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "scroll left",
+                "enabled": true,
+                "id": "1NTXPYH",
+                "text": "\ue014",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "count": "7",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "1NTXPV0",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1NTXPV1",
+        "type": "End Loop"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "delete slide",
+        "enabled": true,
+        "id": "1NTXRVH",
+        "text": "\ue017",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "duplicate: copy and paste slide",
+        "enabled": true,
+        "id": "1NTXTCW",
+        "text": "\ue009cv",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "Undo and save",
+        "enabled": true,
+        "id": "1NTXU0H",
+        "text": "\ue009z\ue009\ue009s\ue009",
+        "type": "Type",
+        "typing_delay": "[typing_delay]"
+    }
+]
