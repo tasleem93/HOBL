@@ -1,0 +1,228 @@
+[
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": false,
+        "file_name": [
+            "image_1P37U7T.png"
+        ],
+        "h": "0.044",
+        "id": "1P37U7T",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.366",
+        "x": "0.114",
+        "y": "0.955"
+    },
+    {
+        "capture_id": "1P37U7T",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": false,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1P37UHX.png"
+        ],
+        "id": "1P37UHX",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.372"
+    },
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-06-30",
+        "description": "Discord messaging Apps",
+        "enabled": true,
+        "id": "1P37TCC",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1P37TVX",
+        "type": "Setup"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "0.5",
+                "description": "",
+                "enabled": true,
+                "file_name": [
+                    "image_1P37UY8.png"
+                ],
+                "h": "0.072",
+                "id": "1P37UY8",
+                "recapture": false,
+                "type": "Capture",
+                "w": "0.355",
+                "x": "0.125",
+                "y": "0.930"
+            },
+            {
+                "capture_id": "1P37UY8",
+                "children": [],
+                "delay": "2",
+                "description": "open discord apps",
+                "enabled": true,
+                "exception_on": "No match",
+                "file_name": [
+                    "image_1P37V2R.png"
+                ],
+                "id": "1P37V2R",
+                "match_threshold": "",
+                "primary": true,
+                "scale": "",
+                "type": "Click",
+                "x": "0.500",
+                "y": "0.500"
+            },
+            {
+                "children": [],
+                "delay": "0.5",
+                "description": "",
+                "enabled": true,
+                "file_name": [
+                    "image_1P37XY6.png"
+                ],
+                "h": "0.417",
+                "id": "1P37XY6",
+                "recapture": false,
+                "type": "Capture",
+                "w": "0.221",
+                "x": "0.007",
+                "y": "0.031"
+            },
+            {
+                "capture_id": "1P37XY6",
+                "children": [],
+                "delay": "2",
+                "description": "channel for voice",
+                "enabled": false,
+                "exception_on": "No match",
+                "file_name": [
+                    "image_1P37Y0R.png"
+                ],
+                "id": "1P37Y0R",
+                "match_threshold": "",
+                "primary": true,
+                "scale": "",
+                "type": "Click",
+                "x": "0.500",
+                "y": "0.500"
+            },
+            {
+                "children": [],
+                "delay": "0.5",
+                "description": "",
+                "enabled": true,
+                "file_name": [
+                    "image_1P37YLF.png"
+                ],
+                "h": "0.485",
+                "id": "1P37YLF",
+                "recapture": false,
+                "type": "Capture",
+                "w": "0.208",
+                "x": "0.049",
+                "y": "0.229"
+            },
+            {
+                "capture_id": "1P37YLF",
+                "children": [],
+                "delay": "2",
+                "description": "click voice channel",
+                "enabled": false,
+                "exception_on": "No match",
+                "file_name": [
+                    "image_1P37YU5.png"
+                ],
+                "id": "1P37YU5",
+                "match_threshold": "",
+                "primary": true,
+                "scale": "",
+                "type": "Click",
+                "x": "0.500",
+                "y": "0.500"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "Send 3 webhook messages via host PowerShell",
+                "enabled": true,
+                "file_name": [
+                    "code_discord_webhook.py"
+                ],
+                "id": "1P38WH1",
+                "type": "Code"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "minize Screen",
+                "enabled": false,
+                "id": "1P383PP",
+                "text": "\ue00a",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            },
+            {
+                "children": [],
+                "delay": "0.5",
+                "description": "",
+                "enabled": false,
+                "file_name": [
+                    "image_1P385M0.png"
+                ],
+                "h": "0.068",
+                "id": "1P385M0",
+                "recapture": false,
+                "type": "Capture",
+                "w": "0.198",
+                "x": "0.807",
+                "y": "0.000"
+            },
+            {
+                "capture_id": "1P385M0",
+                "children": [],
+                "delay": "2",
+                "description": "Minimize Screen",
+                "enabled": false,
+                "exception_on": "No match",
+                "file_name": [
+                    "image_1P385TW.png"
+                ],
+                "id": "1P385TW",
+                "match_threshold": "",
+                "primary": true,
+                "scale": "",
+                "type": "Click",
+                "x": "0.500",
+                "y": "0.500"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "",
+                "enabled": false,
+                "id": "1P3842W",
+                "text": "\ue00a",
+                "type": "Type",
+                "typing_delay": "[typing_delay]"
+            }
+        ],
+        "description": "",
+        "enabled": true,
+        "id": "1P37TWV",
+        "type": "Run Test"
+    }
+]

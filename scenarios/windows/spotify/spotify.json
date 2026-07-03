@@ -1,0 +1,352 @@
+[
+    {
+        "author": "",
+        "capture_device": "",
+        "children": [],
+        "create_date": "2026-06-25",
+        "description": "",
+        "enabled": true,
+        "id": "1NV6T0R",
+        "type": "Information"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NV6T9M.png"
+        ],
+        "h": "0.068",
+        "id": "1NV6T9M",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.485",
+        "x": "0.066",
+        "y": "0.940"
+    },
+    {
+        "capture_id": "1NV6T9M",
+        "children": [],
+        "delay": "2",
+        "description": "open spotify",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NV6TCL.png"
+        ],
+        "id": "1NV6TCL",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "down",
+        "enabled": true,
+        "id": "1NV6TUT",
+        "type": "Scroll",
+        "x": "0.640",
+        "y": "0.290"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "down",
+        "enabled": true,
+        "id": "1NV6TV2",
+        "type": "Scroll",
+        "x": "0.640",
+        "y": "0.290"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "down",
+        "enabled": true,
+        "id": "1NV6TVJ",
+        "type": "Scroll",
+        "x": "0.640",
+        "y": "0.290"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "down",
+        "enabled": true,
+        "id": "1NV6TVV",
+        "type": "Scroll",
+        "x": "0.640",
+        "y": "0.290"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "",
+                "direction": "down",
+                "enabled": true,
+                "id": "1NV7FXU",
+                "type": "Scroll",
+                "x": "0.496",
+                "y": "0.435"
+            }
+        ],
+        "count": "5",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "1NV7FM5",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1NV7FM6",
+        "type": "End Loop"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "delay": "2",
+                "description": "",
+                "direction": "up",
+                "enabled": true,
+                "id": "1NV7HAT",
+                "type": "Scroll",
+                "x": "0.536",
+                "y": "0.537"
+            },
+            {
+                "children": [],
+                "delay": "2",
+                "description": "",
+                "direction": "up",
+                "enabled": false,
+                "id": "1NV7HAY",
+                "type": "Scroll",
+                "x": "0.536",
+                "y": "0.537"
+            }
+        ],
+        "count": "5",
+        "delay": "0.0",
+        "description": "",
+        "enabled": true,
+        "id": "1NV7H7E",
+        "type": "Loop"
+    },
+    {
+        "children": [],
+        "description": "",
+        "enabled": true,
+        "id": "1NV7H7F",
+        "type": "End Loop"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "up",
+        "enabled": true,
+        "id": "1NV6U2P",
+        "type": "Scroll",
+        "x": "0.563",
+        "y": "0.512"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NV6U9V.png"
+        ],
+        "h": "0.358",
+        "id": "1NV6U9V",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.224",
+        "x": "0.010",
+        "y": "0.061"
+    },
+    {
+        "capture_id": "1NV6U9V",
+        "children": [],
+        "delay": "2",
+        "description": "my playlist",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NV6UE8.png"
+        ],
+        "id": "1NV6UE8",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1NV70VF",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NV6UN0.png"
+        ],
+        "h": "0.358",
+        "id": "1NV6UN0",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.556",
+        "x": "0.247",
+        "y": "0.098"
+    },
+    {
+        "capture_id": "1NV6UN0",
+        "children": [],
+        "delay": "2",
+        "description": "play music",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NV6URN.png"
+        ],
+        "id": "1NV6URN",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "50",
+        "description": "",
+        "enabled": true,
+        "id": "1NV6UWX",
+        "type": "Delay"
+    },
+    {
+        "capture_id": "1NV6UN0",
+        "children": [],
+        "delay": "2",
+        "description": "pause",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NV6V64.png"
+        ],
+        "id": "1NV6V64",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": true,
+        "id": "1NV6VHL",
+        "type": "Delay"
+    },
+    {
+        "children": [],
+        "delay": "0.5",
+        "description": "",
+        "enabled": true,
+        "file_name": [
+            "image_1NV6VR2.png"
+        ],
+        "h": "0.057",
+        "id": "1NV6VR2",
+        "recapture": false,
+        "type": "Capture",
+        "w": "0.207",
+        "x": "0.797",
+        "y": "0.003"
+    },
+    {
+        "capture_id": "1NV6VR2",
+        "children": [],
+        "delay": "2",
+        "description": "minimize for bg",
+        "enabled": true,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NV7J95.png"
+        ],
+        "id": "1NV7J95",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "capture_id": "1NV6VR2",
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "enabled": false,
+        "exception_on": "No match",
+        "file_name": [
+            "image_1NV6VW9.png"
+        ],
+        "id": "1NV6VW9",
+        "match_threshold": "",
+        "primary": true,
+        "scale": "",
+        "type": "Click",
+        "x": "0.500",
+        "y": "0.500"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "down",
+        "enabled": false,
+        "id": "1NV6U2V",
+        "type": "Scroll",
+        "x": "0.563",
+        "y": "0.512"
+    },
+    {
+        "children": [],
+        "delay": "2",
+        "description": "",
+        "direction": "down",
+        "enabled": false,
+        "id": "1NV6U30",
+        "type": "Scroll",
+        "x": "0.563",
+        "y": "0.512"
+    }
+]
